@@ -1,0 +1,52 @@
+﻿State ,Policy,Policy_Num
+AL,Most Restrictive,1
+AR,Most Restrictive,1
+KY,Most Restrictive,1
+MO,Most Restrictive,1
+OK,Most Restrictive,1
+SD,Most Restrictive,1
+OH,Very Restrictive,2
+SC,Very Restrictive,2
+TN,Very Restrictive,2
+TX,Very Restrictive,2
+AZ,Restrictive,3
+FL,Restrictive,3
+GA,Restrictive,3
+ID,Restrictive,3
+IN,Restrictive,3
+IA,Restrictive,3
+KS,Restrictive,3
+LA,Restrictive,3
+MS,Restrictive,3
+NE,Restrictive,3
+ND,Restrictive,3
+PA,Restrictive,3
+UT,Restrictive,3
+WV,Restrictive,3
+WI,Restrictive,3
+CT,Some Restrictions / Protections,4
+DE,Some Restrictions / Protections,4
+DC,Some Restrictions / Protections,4
+HI,Some Restrictions / Protections,4
+MD,Some Restrictions / Protections,4
+MA,Some Restrictions / Protections,4
+MI,Some Restrictions / Protections,4
+MN,Some Restrictions / Protections,4
+MT,Some Restrictions / Protections,4
+NV,Some Restrictions / Protections,4
+NH,Some Restrictions / Protections,4
+NC,Some Restrictions / Protections,4
+RI,Some Restrictions / Protections,4
+VA,Some Restrictions / Protections,4
+WY,Some Restrictions / Protections,4
+AK,Protective,5
+CA,Protective,5
+CO,Protective,5
+IL,Protective,5
+ME,Protective,5
+NJ,Protective,5
+NM,Protective,5
+NY,Protective,5
+VT,Protective,5
+WA,Protective,5
+OR,Most Protective,7
