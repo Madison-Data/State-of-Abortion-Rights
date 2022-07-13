@@ -23,10 +23,12 @@ Base = automap_base()
 Base.prepare(engine, reflect=True)
 
 # Save reference to the table
-abortion = Base.classes.df_abortion_sql
+# abortion = Base.classes.df_abortion_sql
 
 
 app = Flask(__name__)
+
+
 
 @app.route("/")
 def home():
