@@ -51,12 +51,12 @@ def home():
 
 
 
-@app.route("/table")
+@app.route("/data")
 def table(): 
     # conn = sqlite3.connect("DataFiles/abortion.db")
     # df = pd.read_sql("select * from df_abortion_sql",con=conn)
     # return jsonify(df.to_dict())
-    return render_template("table.html")
+    return render_template("data.html")
 
 
 
