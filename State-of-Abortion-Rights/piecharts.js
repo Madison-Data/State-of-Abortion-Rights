@@ -5,7 +5,11 @@ Chart.register(...registerables);
 import Chart from 'chart.js/auto';
 
 
-const Alabama = {
+// features.properties.data[0].PercentWORAhispanic
+// features.properties.data[0].PercentWORAblack
+
+for (var i = 0; i < features.properties.data.length; i++) {
+  const state = {
     labels: [
       '% WORA who are hispanic',
       '% WORA who are black',
@@ -15,7 +19,42 @@ const Alabama = {
     ],
     datasets: [{
       label: 'Diversity among women of reproductive ages in Alabama',
-      data: [5, 29, 60, 2, 5],
+      data: [
+        features.properties.data[i].PercentWORAhispanic,
+        features.properties.data[i].PercentWORAblack,
+        features.properties.data[i].PercentWORAwhite,
+        features.properties.data[i].PercentWORAasian, 
+        features.properties.data[i].PercentWORAAnotherRace
+      ],
+      backgroundColor: [
+        'rgb(255, 99, 132)',
+        'rgb(54, 162, 235)',
+        'rgb(255, 205, 86)',
+        'rgb(0, 204, 102)',
+        'rgb(204, 0, 204)'
+      ],
+      hoverOffset: 4
+    }]
+  };
+}
+
+const state = {
+    labels: [
+      '% WORA who are hispanic',
+      '% WORA who are black',
+      '% WORA who are white',
+      '% WORA who are asian',
+      '% other WORA'
+    ],
+    datasets: [{
+      label: 'Diversity among women of reproductive ages in Alabama',
+      data: [
+        features.properties.data[i].PercentWORAhispanic,
+        features.properties.data[i].PercentWORAblack,
+        features.properties.data[i].PercentWORAwhite,
+        features.properties.data[i].PercentWORAasian, 
+        features.properties.data[i].PercentWORAAnotherRace
+      ],
       backgroundColor: [
         'rgb(255, 99, 132)',
         'rgb(54, 162, 235)',
