@@ -1,0 +1,256 @@
+,state,Race/Ethnicity,Portion of WORA
+0,Alabama,Hispanic,5.0
+102,Alabama,Black,29.0
+153,Alabama,Asian,2.0
+204,Alabama,Other,5.0
+51,Alabama,White,60.0
+103,Alaska,Black,3.0
+205,Alaska,Other,29.0
+52,Alaska,White,52.0
+154,Alaska,Asian,8.0
+1,Alaska,Hispanic,8.0
+206,Arizona,Other,9.0
+2,Arizona,Hispanic,38.0
+104,Arizona,Black,5.0
+155,Arizona,Asian,4.0
+53,Arizona,White,45.0
+105,Arkansas,Black,17.0
+156,Arkansas,Asian,2.0
+54,Arkansas,White,65.0
+207,Arkansas,Other,7.0
+3,Arkansas,Hispanic,9.0
+208,California,Other,5.0
+106,California,Black,5.0
+4,California,Hispanic,44.0
+55,California,White,30.0
+157,California,Asian,16.0
+56,Colorado,White,62.0
+209,Colorado,Other,5.0
+158,Colorado,Asian,4.0
+5,Colorado,Hispanic,24.0
+107,Colorado,Black,4.0
+108,Connecticut,Black,12.0
+57,Connecticut,White,57.0
+6,Connecticut,Hispanic,21.0
+210,Connecticut,Other,4.0
+159,Connecticut,Asian,6.0
+58,DC,White,42.0
+109,DC,Black,34.0
+7,DC,Hispanic,12.0
+211,DC,Other,6.0
+160,DC,Asian,6.0
+212,Delaware,Other,6.0
+59,Delaware,White,53.0
+8,Delaware,Hispanic,12.0
+161,Delaware,Asian,5.0
+110,Delaware,Black,23.0
+111,Florida,Black,17.0
+162,Florida,Asian,3.0
+213,Florida,Other,5.0
+60,Florida,White,44.0
+9,Florida,Hispanic,31.0
+10,Georgia,Hispanic,11.0
+112,Georgia,Black,34.0
+214,Georgia,Other,5.0
+163,Georgia,Asian,5.0
+61,Georgia,White,45.0
+113,Hawaii,Black,2.0
+215,Hawaii,Other,35.0
+62,Hawaii,White,18.0
+164,Hawaii,Asian,33.0
+11,Hawaii,Hispanic,13.0
+114,Idaho,Black,1.0
+165,Idaho,Asian,2.0
+63,Idaho,White,77.0
+12,Idaho,Hispanic,15.0
+216,Idaho,Other,6.0
+115,Illinois,Black,15.0
+217,Illinois,Other,4.0
+13,Illinois,Hispanic,20.0
+166,Illinois,Asian,7.0
+64,Illinois,White,55.0
+218,Indiana,Other,4.0
+14,Indiana,Hispanic,8.0
+167,Indiana,Asian,3.0
+65,Indiana,White,74.0
+116,Indiana,Black,11.0
+168,Iowa,Asian,3.0
+66,Iowa,White,79.0
+219,Iowa,Other,4.0
+15,Iowa,Hispanic,8.0
+117,Iowa,Black,5.0
+118,Kansas,Black,5.0
+220,Kansas,Other,6.0
+169,Kansas,Asian,4.0
+16,Kansas,Hispanic,13.0
+67,Kansas,White,71.0
+17,Kentucky,Hispanic,4.0
+221,Kentucky,Other,5.0
+68,Kentucky,White,81.0
+170,Kentucky,Asian,2.0
+119,Kentucky,Black,8.0
+18,Louisiana,Hispanic,6.0
+69,Louisiana,White,53.0
+222,Louisiana,Other,5.0
+171,Louisiana,Asian,2.0
+120,Louisiana,Black,35.0
+70,Maine,White,88.0
+19,Maine,Hispanic,2.0
+121,Maine,Black,2.0
+172,Maine,Asian,2.0
+223,Maine,Other,6.0
+224,Maryland,Other,5.0
+122,Maryland,Black,31.0
+20,Maryland,Hispanic,12.0
+71,Maryland,White,44.0
+173,Maryland,Asian,8.0
+225,Massachusetts,Other,5.0
+21,Massachusetts,Hispanic,14.0
+174,Massachusetts,Asian,9.0
+72,Massachusetts,White,64.0
+123,Massachusetts,Black,7.0
+175,Michigan,Asian,4.0
+22,Michigan,Hispanic,6.0
+124,Michigan,Black,15.0
+73,Michigan,White,70.0
+226,Michigan,Other,5.0
+125,Minnesota,Black,8.0
+227,Minnesota,Other,6.0
+176,Minnesota,Asian,6.0
+74,Minnesota,White,74.0
+23,Minnesota,Hispanic,7.0
+24,Mississippi,Hispanic,3.0
+228,Mississippi,Other,3.0
+177,Mississippi,Asian,2.0
+75,Mississippi,White,52.0
+126,Mississippi,Black,40.0
+229,Missouri,Other,7.0
+178,Missouri,Asian,3.0
+127,Missouri,Black,12.0
+25,Missouri,Hispanic,5.0
+76,Missouri,White,74.0
+128,Montana,Black,0.0
+26,Montana,Hispanic,5.0
+230,Montana,Other,12.0
+179,Montana,Asian,1.0
+77,Montana,White,81.0
+129,Nebraska,Black,5.0
+231,Nebraska,Other,5.0
+27,Nebraska,Hispanic,13.0
+78,Nebraska,White,73.0
+180,Nebraska,Asian,4.0
+232,Nevada,Other,8.0
+79,Nevada,White,40.0
+130,Nevada,Black,9.0
+181,Nevada,Asian,9.0
+28,Nevada,Hispanic,34.0
+182,New Hampshire,Asian,4.0
+80,New Hampshire,White,86.0
+29,New Hampshire,Hispanic,5.0
+233,New Hampshire,Other,4.0
+131,New Hampshire,Black,2.0
+81,New Jersey,White,47.0
+30,New Jersey,Hispanic,24.0
+234,New Jersey,Other,4.0
+183,New Jersey,Asian,12.0
+132,New Jersey,Black,14.0
+82,New Mexico,White,29.0
+184,New Mexico,Asian,2.0
+31,New Mexico,Hispanic,54.0
+235,New Mexico,Other,13.0
+133,New Mexico,Black,2.0
+236,New York,Other,5.0
+83,New York,White,49.0
+185,New York,Asian,10.0
+134,New York,Black,14.0
+32,New York,Hispanic,21.0
+186,North Carolina,Asian,4.0
+33,North Carolina,Hispanic,11.0
+135,North Carolina,Black,23.0
+84,North Carolina,White,57.0
+237,North Carolina,Other,6.0
+34,North Dakota,Hispanic,4.0
+136,North Dakota,Black,4.0
+85,North Dakota,White,78.0
+238,North Dakota,Other,11.0
+187,North Dakota,Asian,3.0
+188,Ohio,Asian,3.0
+137,Ohio,Black,13.0
+239,Ohio,Other,5.0
+86,Ohio,White,74.0
+35,Ohio,Hispanic,5.0
+138,Oklahoma,Black,7.0
+240,Oklahoma,Other,18.0
+87,Oklahoma,White,59.0
+36,Oklahoma,Hispanic,13.0
+189,Oklahoma,Asian,3.0
+139,Oregon,Black,1.0
+241,Oregon,Other,8.0
+88,Oregon,White,69.0
+37,Oregon,Hispanic,16.0
+190,Oregon,Asian,6.0
+242,Pennsylvania,Other,5.0
+38,Pennsylvania,Hispanic,10.0
+191,Pennsylvania,Asian,5.0
+89,Pennsylvania,White,70.0
+140,Pennsylvania,Black,11.0
+192,Rhode Island,Asian,5.0
+141,Rhode Island,Black,6.0
+90,Rhode Island,White,64.0
+39,Rhode Island,Hispanic,20.0
+243,Rhode Island,Other,5.0
+142,South Carolina,Black,28.0
+193,South Carolina,Asian,2.0
+40,South Carolina,Hispanic,6.0
+91,South Carolina,White,59.0
+244,South Carolina,Other,5.0
+245,South Dakota,Other,15.0
+194,South Dakota,Asian,1.0
+143,South Dakota,Black,2.0
+92,South Dakota,White,78.0
+41,South Dakota,Hispanic,3.0
+42,Tennessee,Hispanic,6.0
+144,Tennessee,Black,17.0
+246,Tennessee,Other,5.0
+195,Tennessee,Asian,3.0
+93,Tennessee,White,69.0
+145,Texas,Black,12.0
+247,Texas,Other,4.0
+94,Texas,White,36.0
+196,Texas,Asian,6.0
+43,Texas,Hispanic,43.0
+146,Utah,Black,1.0
+248,Utah,Other,5.0
+95,Utah,White,75.0
+44,Utah,Hispanic,15.0
+197,Utah,Asian,3.0
+96,Vermont,White,88.0
+249,Vermont,Other,4.0
+198,Vermont,Asian,4.0
+147,Vermont,Black,1.0
+45,Vermont,Hispanic,2.0
+97,Virginia,White,55.0
+250,Virginia,Other,6.0
+199,Virginia,Asian,8.0
+46,Virginia,Hispanic,11.0
+148,Virginia,Black,19.0
+251,Washington,Other,9.0
+200,Washington,Asian,12.0
+47,Washington,Hispanic,15.0
+98,Washington,White,60.0
+149,Washington,Black,4.0
+48,West Virginia,Hispanic,2.0
+252,West Virginia,Other,5.0
+99,West Virginia,White,90.0
+201,West Virginia,Asian,1.0
+150,West Virginia,Black,2.0
+253,Wisconsin,Other,4.0
+100,Wisconsin,White,76.0
+151,Wisconsin,Black,7.0
+202,Wisconsin,Asian,4.0
+49,Wisconsin,Hispanic,9.0
+101,Wyoming,White,80.0
+203,Wyoming,Asian,1.0
+50,Wyoming,Hispanic,13.0
+152,Wyoming,Black,0.0
+254,Wyoming,Other,6.0

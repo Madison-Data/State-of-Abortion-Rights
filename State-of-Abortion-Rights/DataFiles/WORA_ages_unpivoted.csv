@@ -1,0 +1,307 @@
+,state,Age Group,Portion of WORA
+0,Alabama,15-17 Years,8.0
+102,Alabama,20-24 Years,14.0
+153,Alabama,25-29 Years,15.0
+204,Alabama,30-39 Years,29.0
+255,Alabama,40-49 Years,28.0
+51,Alabama,18-19 Years,6.0
+1,Alaska,15-17 Years,8.0
+52,Alaska,18-19 Years,4.0
+103,Alaska,20-24 Years,10.0
+154,Alaska,25-29 Years,18.0
+205,Alaska,30-39 Years,33.0
+256,Alaska,40-49 Years,26.0
+206,Arizona,30-39 Years,28.0
+155,Arizona,25-29 Years,15.0
+2,Arizona,15-17 Years,8.0
+104,Arizona,20-24 Years,15.0
+53,Arizona,18-19 Years,6.0
+257,Arizona,40-49 Years,27.0
+258,Arkansas,40-49 Years,28.0
+156,Arkansas,25-29 Years,15.0
+105,Arkansas,20-24 Years,14.0
+54,Arkansas,18-19 Years,6.0
+207,Arkansas,30-39 Years,29.0
+3,Arkansas,15-17 Years,9.0
+157,California,25-29 Years,16.0
+208,California,30-39 Years,30.0
+55,California,18-19 Years,5.0
+4,California,15-17 Years,8.0
+259,California,40-49 Years,27.0
+106,California,20-24 Years,14.0
+209,Colorado,30-39 Years,32.0
+158,Colorado,25-29 Years,16.0
+5,Colorado,15-17 Years,8.0
+56,Colorado,18-19 Years,5.0
+260,Colorado,40-49 Years,26.0
+107,Colorado,20-24 Years,13.0
+57,Connecticut,18-19 Years,6.0
+6,Connecticut,15-17 Years,8.0
+159,Connecticut,25-29 Years,13.0
+210,Connecticut,30-39 Years,28.0
+261,Connecticut,40-49 Years,29.0
+108,Connecticut,20-24 Years,15.0
+109,DC,20-24 Years,13.0
+262,DC,40-49 Years,18.0
+58,DC,18-19 Years,6.0
+211,DC,30-39 Years,35.0
+7,DC,15-17 Years,5.0
+160,DC,25-29 Years,23.0
+110,Delaware,20-24 Years,12.0
+161,Delaware,25-29 Years,15.0
+59,Delaware,18-19 Years,7.0
+212,Delaware,30-39 Years,30.0
+263,Delaware,40-49 Years,27.0
+8,Delaware,15-17 Years,9.0
+111,Florida,20-24 Years,14.0
+162,Florida,25-29 Years,15.0
+213,Florida,30-39 Years,30.0
+60,Florida,18-19 Years,5.0
+264,Florida,40-49 Years,29.0
+9,Florida,15-17 Years,8.0
+112,Georgia,20-24 Years,14.0
+61,Georgia,18-19 Years,6.0
+265,Georgia,40-49 Years,28.0
+10,Georgia,15-17 Years,8.0
+214,Georgia,30-39 Years,29.0
+163,Georgia,25-29 Years,14.0
+11,Hawaii,15-17 Years,7.0
+62,Hawaii,18-19 Years,5.0
+215,Hawaii,30-39 Years,31.0
+164,Hawaii,25-29 Years,15.0
+266,Hawaii,40-49 Years,29.0
+113,Hawaii,20-24 Years,13.0
+216,Idaho,30-39 Years,29.0
+165,Idaho,25-29 Years,15.0
+114,Idaho,20-24 Years,15.0
+267,Idaho,40-49 Years,26.0
+63,Idaho,18-19 Years,6.0
+12,Idaho,15-17 Years,9.0
+115,Illinois,20-24 Years,14.0
+217,Illinois,30-39 Years,29.0
+64,Illinois,18-19 Years,5.0
+268,Illinois,40-49 Years,28.0
+166,Illinois,25-29 Years,15.0
+13,Illinois,15-17 Years,8.0
+14,Indiana,15-17 Years,8.0
+116,Indiana,20-24 Years,16.0
+167,Indiana,25-29 Years,14.0
+269,Indiana,40-49 Years,27.0
+218,Indiana,30-39 Years,29.0
+65,Indiana,18-19 Years,6.0
+117,Iowa,20-24 Years,15.0
+66,Iowa,18-19 Years,6.0
+168,Iowa,25-29 Years,15.0
+219,Iowa,30-39 Years,29.0
+270,Iowa,40-49 Years,26.0
+15,Iowa,15-17 Years,9.0
+16,Kansas,15-17 Years,9.0
+271,Kansas,40-49 Years,27.0
+67,Kansas,18-19 Years,6.0
+169,Kansas,25-29 Years,15.0
+118,Kansas,20-24 Years,16.0
+220,Kansas,30-39 Years,27.0
+170,Kentucky,25-29 Years,14.0
+119,Kentucky,20-24 Years,15.0
+68,Kentucky,18-19 Years,6.0
+17,Kentucky,15-17 Years,8.0
+272,Kentucky,40-49 Years,29.0
+221,Kentucky,30-39 Years,28.0
+222,Louisiana,30-39 Years,31.0
+171,Louisiana,25-29 Years,16.0
+18,Louisiana,15-17 Years,8.0
+69,Louisiana,18-19 Years,5.0
+273,Louisiana,40-49 Years,26.0
+120,Louisiana,20-24 Years,14.0
+121,Maine,20-24 Years,14.0
+274,Maine,40-49 Years,31.0
+19,Maine,15-17 Years,8.0
+223,Maine,30-39 Years,29.0
+70,Maine,18-19 Years,5.0
+172,Maine,25-29 Years,13.0
+20,Maryland,15-17 Years,9.0
+71,Maryland,18-19 Years,5.0
+173,Maryland,25-29 Years,14.0
+275,Maryland,40-49 Years,29.0
+224,Maryland,30-39 Years,31.0
+122,Maryland,20-24 Years,13.0
+123,Massachusetts,20-24 Years,15.0
+276,Massachusetts,40-49 Years,26.0
+174,Massachusetts,25-29 Years,15.0
+72,Massachusetts,18-19 Years,6.0
+21,Massachusetts,15-17 Years,7.0
+225,Massachusetts,30-39 Years,29.0
+22,Michigan,15-17 Years,9.0
+277,Michigan,40-49 Years,26.0
+175,Michigan,25-29 Years,15.0
+124,Michigan,20-24 Years,15.0
+226,Michigan,30-39 Years,29.0
+73,Michigan,18-19 Years,6.0
+227,Minnesota,30-39 Years,30.0
+23,Minnesota,15-17 Years,9.0
+176,Minnesota,25-29 Years,15.0
+125,Minnesota,20-24 Years,14.0
+278,Minnesota,40-49 Years,27.0
+74,Minnesota,18-19 Years,5.0
+177,Mississippi,25-29 Years,15.0
+75,Mississippi,18-19 Years,6.0
+279,Mississippi,40-49 Years,28.0
+126,Mississippi,20-24 Years,14.0
+24,Mississippi,15-17 Years,8.0
+228,Mississippi,30-39 Years,29.0
+25,Missouri,15-17 Years,8.0
+178,Missouri,25-29 Years,15.0
+76,Missouri,18-19 Years,6.0
+229,Missouri,30-39 Years,30.0
+127,Missouri,20-24 Years,14.0
+280,Missouri,40-49 Years,27.0
+77,Montana,18-19 Years,5.0
+179,Montana,25-29 Years,14.0
+281,Montana,40-49 Years,28.0
+26,Montana,15-17 Years,7.0
+128,Montana,20-24 Years,16.0
+230,Montana,30-39 Years,29.0
+78,Nebraska,18-19 Years,6.0
+231,Nebraska,30-39 Years,29.0
+129,Nebraska,20-24 Years,15.0
+180,Nebraska,25-29 Years,16.0
+282,Nebraska,40-49 Years,25.0
+27,Nebraska,15-17 Years,9.0
+232,Nevada,30-39 Years,29.0
+79,Nevada,18-19 Years,5.0
+130,Nevada,20-24 Years,13.0
+181,Nevada,25-29 Years,16.0
+283,Nevada,40-49 Years,29.0
+28,Nevada,15-17 Years,8.0
+233,New Hampshire,30-39 Years,30.0
+182,New Hampshire,25-29 Years,13.0
+131,New Hampshire,20-24 Years,14.0
+29,New Hampshire,15-17 Years,9.0
+80,New Hampshire,18-19 Years,6.0
+284,New Hampshire,40-49 Years,28.0
+285,New Jersey,40-49 Years,29.0
+30,New Jersey,15-17 Years,9.0
+81,New Jersey,18-19 Years,5.0
+183,New Jersey,25-29 Years,14.0
+234,New Jersey,30-39 Years,29.0
+132,New Jersey,20-24 Years,13.0
+184,New Mexico,25-29 Years,15.0
+82,New Mexico,18-19 Years,5.0
+235,New Mexico,30-39 Years,30.0
+286,New Mexico,40-49 Years,26.0
+31,New Mexico,15-17 Years,9.0
+133,New Mexico,20-24 Years,14.0
+83,New York,18-19 Years,5.0
+236,New York,30-39 Years,31.0
+287,New York,40-49 Years,27.0
+134,New York,20-24 Years,14.0
+32,New York,15-17 Years,7.0
+185,New York,25-29 Years,16.0
+186,North Carolina,25-29 Years,15.0
+84,North Carolina,18-19 Years,6.0
+33,North Carolina,15-17 Years,8.0
+135,North Carolina,20-24 Years,15.0
+288,North Carolina,40-49 Years,29.0
+237,North Carolina,30-39 Years,28.0
+85,North Dakota,18-19 Years,6.0
+136,North Dakota,20-24 Years,18.0
+187,North Dakota,25-29 Years,14.0
+289,North Dakota,40-49 Years,25.0
+238,North Dakota,30-39 Years,29.0
+34,North Dakota,15-17 Years,8.0
+35,Ohio,15-17 Years,8.0
+239,Ohio,30-39 Years,29.0
+290,Ohio,40-49 Years,28.0
+86,Ohio,18-19 Years,6.0
+188,Ohio,25-29 Years,15.0
+137,Ohio,20-24 Years,14.0
+87,Oklahoma,18-19 Years,6.0
+189,Oklahoma,25-29 Years,15.0
+240,Oklahoma,30-39 Years,29.0
+291,Oklahoma,40-49 Years,27.0
+36,Oklahoma,15-17 Years,8.0
+138,Oklahoma,20-24 Years,15.0
+88,Oregon,18-19 Years,5.0
+292,Oregon,40-49 Years,29.0
+241,Oregon,30-39 Years,30.0
+139,Oregon,20-24 Years,14.0
+37,Oregon,15-17 Years,8.0
+190,Oregon,25-29 Years,15.0
+293,Pennsylvania,40-49 Years,27.0
+140,Pennsylvania,20-24 Years,14.0
+191,Pennsylvania,25-29 Years,15.0
+38,Pennsylvania,15-17 Years,8.0
+242,Pennsylvania,30-39 Years,30.0
+89,Pennsylvania,18-19 Years,6.0
+90,Rhode Island,18-19 Years,9.0
+243,Rhode Island,30-39 Years,28.0
+39,Rhode Island,15-17 Years,8.0
+141,Rhode Island,20-24 Years,13.0
+294,Rhode Island,40-49 Years,27.0
+192,Rhode Island,25-29 Years,15.0
+244,South Carolina,30-39 Years,29.0
+295,South Carolina,40-49 Years,28.0
+91,South Carolina,18-19 Years,6.0
+142,South Carolina,20-24 Years,14.0
+193,South Carolina,25-29 Years,15.0
+40,South Carolina,15-17 Years,8.0
+92,South Dakota,18-19 Years,7.0
+143,South Dakota,20-24 Years,16.0
+296,South Dakota,40-49 Years,26.0
+41,South Dakota,15-17 Years,9.0
+194,South Dakota,25-29 Years,13.0
+245,South Dakota,30-39 Years,29.0
+297,Tennessee,40-49 Years,28.0
+246,Tennessee,30-39 Years,29.0
+195,Tennessee,25-29 Years,16.0
+93,Tennessee,18-19 Years,5.0
+42,Tennessee,15-17 Years,8.0
+144,Tennessee,20-24 Years,14.0
+94,Texas,18-19 Years,6.0
+247,Texas,30-39 Years,30.0
+196,Texas,25-29 Years,15.0
+145,Texas,20-24 Years,14.0
+298,Texas,40-49 Years,27.0
+43,Texas,15-17 Years,9.0
+299,Utah,40-49 Years,25.0
+95,Utah,18-19 Years,6.0
+197,Utah,25-29 Years,15.0
+248,Utah,30-39 Years,27.0
+146,Utah,20-24 Years,16.0
+44,Utah,15-17 Years,10.0
+249,Vermont,30-39 Years,30.0
+45,Vermont,15-17 Years,7.0
+300,Vermont,40-49 Years,26.0
+198,Vermont,25-29 Years,12.0
+96,Vermont,18-19 Years,9.0
+147,Vermont,20-24 Years,15.0
+301,Virginia,40-49 Years,28.0
+46,Virginia,15-17 Years,8.0
+199,Virginia,25-29 Years,14.0
+97,Virginia,18-19 Years,6.0
+148,Virginia,20-24 Years,14.0
+250,Virginia,30-39 Years,30.0
+47,Washington,15-17 Years,7.0
+98,Washington,18-19 Years,5.0
+149,Washington,20-24 Years,13.0
+200,Washington,25-29 Years,16.0
+251,Washington,30-39 Years,32.0
+302,Washington,40-49 Years,27.0
+99,West Virginia,18-19 Years,6.0
+150,West Virginia,20-24 Years,14.0
+303,West Virginia,40-49 Years,31.0
+48,West Virginia,15-17 Years,8.0
+201,West Virginia,25-29 Years,14.0
+252,West Virginia,30-39 Years,27.0
+100,Wisconsin,18-19 Years,6.0
+151,Wisconsin,20-24 Years,14.0
+304,Wisconsin,40-49 Years,27.0
+49,Wisconsin,15-17 Years,8.0
+202,Wisconsin,25-29 Years,14.0
+253,Wisconsin,30-39 Years,30.0
+152,Wyoming,20-24 Years,14.0
+203,Wyoming,25-29 Years,11.0
+101,Wyoming,18-19 Years,7.0
+50,Wyoming,15-17 Years,8.0
+254,Wyoming,30-39 Years,35.0
+305,Wyoming,40-49 Years,25.0
