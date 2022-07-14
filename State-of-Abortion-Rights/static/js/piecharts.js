@@ -1,14 +1,15 @@
 
-import { Chart, registerables } from 'chart.js';
+import { Chart, DoughtnutController, registerables } from 'chart.js';
 Chart.register(...registerables);
 
 import Chart from 'chart.js/auto';
 
-
+const jsonData= require('../static/states.json'); 
+console.log(jsonData);
 // features.properties.data[0].PercentWORAhispanic
 // features.properties.data[0].PercentWORAblack
 
-for (var i = 0; i < features.properties.data.length; i++) {
+for (var i = 0; i < jsonData[features.properties.data.length]; i++) {
   const state = {
     labels: [
       '% WORA who are hispanic',
@@ -19,7 +20,7 @@ for (var i = 0; i < features.properties.data.length; i++) {
     ],
     datasets: [{
       label: 'Diversity among women of reproductive ages in Alabama',
-      data: [
+      data: jsonData[
         features.properties.data[i].PercentWORAhispanic,
         features.properties.data[i].PercentWORAblack,
         features.properties.data[i].PercentWORAwhite,
