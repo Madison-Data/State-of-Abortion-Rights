@@ -21,13 +21,8 @@ Base = automap_base()
 Base.prepare(engine, reflect=True)
 # Base.prepare(autoload_with=engine)
 
-<<<<<<< HEAD
 # Save reference to the table ---> Causes the application to error when uncommented
 # abortion = Base.classes.df_abortion_sql
-=======
-# Save reference to the table
-abortion = Base.classes.df_abortion_sql
->>>>>>> 71835a131ec246a2f9cdbd1504853df0795a835a
 
 app = Flask(__name__)
 

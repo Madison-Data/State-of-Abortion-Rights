@@ -5,7 +5,6 @@ Chart.register(...registerables);
 import Chart from 'chart.js/auto';
 
 
-
 // features.properties.data[0].PercentWORAhispanic
 // features.properties.data[0].PercentWORAblack
 
@@ -39,15 +38,10 @@ for (var i = 0; i < features.properties.data.length; i++) {
   };
 }
 
-const config = {
-  type: 'doughnut',
-  data: state,
-};
-
-// const myChart = new Chart(
-//   document.getElementById('myChart'),
-//   config
-// );
+const myChart = new Chart(
+  document.getElementById('myChart'),
+  config
+);
 
 const state = {
     labels: [
