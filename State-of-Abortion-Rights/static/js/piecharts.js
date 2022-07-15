@@ -1,43 +1,118 @@
 
-import { Chart, registerables } from 'chart.js';
-Chart.register(...registerables);
-
-import Chart from 'chart.js/auto';
 
 
+const ctx = document.getElementById('piechart').getContext('2d');
+const pollChart = new Chart(ctx, {
+  type: 'pie',
+  data: {
+      labels: [
+            '% WORA who are hispanic',
+            '% WORA who are black',
+            '% WORA who are white',
+            '% WORA who are asian',
+            '% other WORA'],
+      datasets: [{
+          label: '# of Votes',
+          data: [12, 19, 3, 5, 2],
+          backgroundColor: [
+              'rgba(255, 99, 132, 0.2)',
+              'rgba(54, 162, 235, 0.2)',
+              'rgba(255, 206, 86, 0.2)',
+              'rgba(75, 192, 192, 0.2)',
+              'rgba(153, 102, 255, 0.2)',
+          ],
+          borderColor: [
+              'rgba(255, 99, 132, 1)',
+              'rgba(54, 162, 235, 1)',
+              'rgba(255, 206, 86, 1)',
+              'rgba(75, 192, 192, 1)',
+              'rgba(153, 102, 255, 1)',
+          ],
+          borderWidth: 1
+      }]
+  },
+  options: {
+      scales: {
+          y: {
+              beginAtZero: true
+          }
+      }
+  }
+});
 
+
+
+// const ctx = 'myChart';
+
+// const jsonData= require('../static/states.json'); 
+// console.log(jsonData);
 // features.properties.data[0].PercentWORAhispanic
 // features.properties.data[0].PercentWORAblack
 
-for (var i = 0; i < features.properties.data.length; i++) {
-  const state = {
-    labels: [
-      '% WORA who are hispanic',
-      '% WORA who are black',
-      '% WORA who are white',
-      '% WORA who are asian',
-      '% other WORA'
-    ],
-    datasets: [{
-      label: 'Diversity among women of reproductive ages in Alabama',
-      data: [
-        features.properties.data[i].PercentWORAhispanic,
-        features.properties.data[i].PercentWORAblack,
-        features.properties.data[i].PercentWORAwhite,
-        features.properties.data[i].PercentWORAasian, 
-        features.properties.data[i].PercentWORAAnotherRace
-      ],
-      backgroundColor: [
-        'rgb(255, 99, 132)',
-        'rgb(54, 162, 235)',
-        'rgb(255, 205, 86)',
-        'rgb(0, 204, 102)',
-        'rgb(204, 0, 204)'
-      ],
-      hoverOffset: 4
-    }]
-  };
-}
+// const statechart = new Chart(ctx, {
+//   type: 'Doughnut',
+
+// const stateChart = new Chart(ctx, {
+//   type: 'doughnut',
+//   data: {
+//     labels: [
+//       '% WORA who are hispanic',
+//       '% WORA who are black',
+//       '% WORA who are white',
+//       '% WORA who are asian',
+//       '% other WORA'
+//     ],
+//     datasets: [{
+//       label: 'Diversity among women of reproductive ages in Alabama',
+//       data: [12, 19, 4, 2, 5],
+//       backgroundColor: [
+//         'rgb(255, 99, 132)',
+//         'rgb(54, 162, 235)',
+//         'rgb(255, 205, 86)',
+//         'rgb(0, 204, 102)',
+//         'rgb(204, 0, 204)'
+//       ]
+//     }]
+//   }
+// })
+
+// })
+
+// // for (var i = 0; i < features.properties.data.length; i++) {
+//   const state = new Chart(ctx, {
+//     type: 'Doughnut',
+//     labels: [
+//       '% WORA who are hispanic',
+//       '% WORA who are black',
+//       '% WORA who are white',
+//       '% WORA who are asian',
+//       '% other WORA'
+//     ],
+//     datasets: [{
+//       label: 'Diversity among women of reproductive ages in Alabama',
+//       data: [1, 2, 3, 4, 5
+//         // features.properties.data[i].PercentWORAhispanic,
+//         // features.properties.data[i].PercentWORAblack,
+//         // features.properties.data[i].PercentWORAwhite,
+//         // features.properties.data[i].PercentWORAasian, 
+//         // features.properties.data[i].PercentWORAAnotherRace
+//       ],
+//       backgroundColor: [
+//         'rgb(255, 99, 132)',
+//         'rgb(54, 162, 235)',
+//         'rgb(255, 205, 86)',
+//         'rgb(0, 204, 102)',
+//         'rgb(204, 0, 204)'
+//       ],
+//       hoverOffset: 4
+//     }]
+//   });
+// // }
+
+// const myChart = new Chart(
+//   document.getElementById('myChart'),
+//   config
+// );
 
 // const state = {
 //     labels: [

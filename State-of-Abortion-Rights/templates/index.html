@@ -8,6 +8,9 @@
     <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../static/app.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js" defer></script>
+    <script src="../static/js/piecharts.js" defer></script>
+    <script src="../static/data/states.json" defer></script>
     <!-- <script src="https://d3js.org/d3.v7.min.js"></script> -->
     <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
 
@@ -37,6 +40,8 @@
     .legend { text-align: left; line-height: 18px; color: #555; } 
     .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }</style>
     
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 </head>
 
 <body>
@@ -51,9 +56,26 @@
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script type="text/javascript" src="./static/Map2.js"></script>
 
-<script type="text/javascript">
+<!-- <script>src="../static/data/states.json"</script> -->
 
-</script>
+    <h3>pie chart:</h3>
+    <canvas id="piechart" width="400" height="400"></canvas>
+    <script>
+        fetch("../static/data/states.json")
+            .then(response=> response.json())
+            .then(data => {
+                console.log(data)
+            })
+    </script>
+<!-- <script> src= "./static/js/testing.js"</script> -->
+<!-- 
+<script>
+    const myChart = new Chart(
+      document.getElementById('myChart'),
+      config
+    );
+  </script> -->
+  
 
 <!-- At the very bottom: -->
 <p>

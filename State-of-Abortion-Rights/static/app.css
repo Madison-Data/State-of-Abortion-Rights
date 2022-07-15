@@ -18,6 +18,10 @@ body {
 /* https://maisieh15.files.wordpress.com/2010/11/grunge1.jpg */
 /* https://www.fnordware.com/superpng/pnggradHDrgba.png */
 
+canvas {
+    border: 2px solid black
+}
+
 footer {
     text-align:left;
     color: #576F72;
