@@ -4,21 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abortion Rates per State</title>
+    
+    <title>STATE OF ABORTION RIGHTS</title>
+
     <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../static/app.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js" defer></script>
-    <script src="../static/js/piecharts.js" defer></script>
-    <script src= "../static/js/WORAdata.js"></script>
-    <!-- <script src="../static/data/states.json" defer></script> -->
-    <!-- <script src="https://d3js.org/d3.v7.min.js"></script> -->
-    <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
-
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" /> -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
-    
-    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
 
+    <!-- JAVASCRIPT LIBRARY REFERENCES -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js" defer></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- JAVASCRIPT AND JSON FILES -->
+    <script src="../static/js/piecharts.js" defer></script>
+    <script src="../static/data/states.json" defer></script>
+    
+
+<!-- STYLE -- WHAT DOES THIS DO? -->
     <style>
 		html, body {
 			height: 100%;
@@ -32,35 +38,43 @@
 			max-width: 100%;
 			max-height: 100%;
             border-color: darkcyan;
+            align-items: right;
 		}
 	</style>
 
-	<style>#map { width: 1500px; height: 600px; }
-    .info { padding: 15px 20px; font: 14px/16px Arial, Helvetica, sans-serif; background: white; background: rgba(255,255,255,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 10px; } 
-    .info h4 { margin: 0 0 5px; color: #777; }
-    .legend { text-align: left; line-height: 18px; color: #555; } 
-    .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }</style>
+<!-- MAP STYLE -->
+	<style>#map { width: 2500px; height: 800px;}
+    .info { padding: 15px 20px; 
+            font: 14px/16px Arial, Helvetica, sans-serif; 
+            background: white; 
+            background: rgba(255,255,255,0.8); 
+            box-shadow: 0 0 15px rgba(0,0,0,0.2); 
+            border-radius: 10px; 
+            width: 700px;} 
+    .info h4 { margin: 2 3 5px; color: #777; }
+    .legend { text-align: left; line-height: 18px; color: #555; padding: 10px 10px; width: 45%; align-items:center } 
+    .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; width: 100}</style>
     
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
 </head>
 
 <body>
-    <h1>Abortion Rates per State</h1>
+    <h1>STATE OF ABORTION</h1>
     <h3> This site was created due to the recent overturn of Roe vs Wade. We feel that people should have an understanding of the abortion laws that pertain to their state. Within this map, you will find information on pregnacy and abortion rates, frequency of abortions, the number of weeks before the abortion ban and more. Toggle with the features and click on a state below to find out more information.</h3>
     <p>
 
 
     </p>
+<!-- // <select id="selDataset" "></select> -->
+<center><button type="button" id ="RestrictiveCategory" onClick="buttonclick('RestrictiveCategory')">Restrictive Category</button>
+<button type="button" id ="Abortions"  onClick="buttonclick('AbortionsObtained2020')">Abortions Obtained in 2020</button>
+<button type="button" id ="AbortionsRate"  onClick="buttonclick('AbortionRateper1k2020')">Abortion Rate per 1,000 Women</button></center>
+    <!-- DIVS -->
     <div id="chart"></div>
     <div id='map'></div>
-<script src="https://d3js.org/d3.v5.min.js"></script>
+    <div id="dataviz_buttonTriger"></div>
 
-<!-- TODO: <script type="text/javascript" src="./static/Map2.js"></script> -->
-
-<!-- <script>src="../static/data/states.json"</script> -->
-
-    <h3>pie chart:</h3>
+    <!-- PIE CHART -->
+    <h3>Pie Chart:</h3>
     <select id="selDataset" onchange="getData(this.value)"> 
         <option value="Alabama">Alabama</option>
         <option value="Alaska">Alaska</option>
@@ -115,13 +129,17 @@
         <option value="Wyoming">Wyoming</option>
       </select>
     <canvas id="piechart" width="400" height="400"></canvas>
-    <!-- <script>
-        fetch("../static/data/states.json")
-            .then(response=> response.json())
-            .then(data => {
-                console.log(data)
-            })
-    </script> -->
+
+<!-- JAVASCRIPT FOR MAP2 -->
+<script type="text/javascript" src="../static/Map2.js"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<!-- <script type="module" src="../static/statesData.js"></script> -->
+
+<!-- <script>src="../static/data/states.json"</script> -->
+
+
+
+
 <!-- <script> src= "./static/js/testing.js"</script> -->
 <!-- 
 <script>
@@ -141,9 +159,12 @@
     <footer>
         <div>
             <li class="nav-item">
-                <a class="nav-link" href="data.html">Click here for a condensed table of this information.</a>
-              </li>
+            <a href=data.html>
+                Click here for a condensed table of this information. 
+            </a>
+            </li>
         </div>
+        
         <div>
             <p>
 
@@ -151,7 +172,7 @@
             </p>
         </div>
         <div>
-            To learn more about abortions visit:
+            To learn more about abortion policies and access in the US visit:
         </div>
         <div>
             <ul>
