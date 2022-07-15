@@ -218,11 +218,7 @@ const dataset = new Chart(ctx, {
 //           ],
 //         datasets: [{
 //             label: 'Diversity among women of reproductive ages in Alabama',
-<<<<<<< HEAD
 //             data: [5, 29, 60, 2, 5],
-=======
-//             data: data,
->>>>>>> a854544c8c40a20f91c76f403e914ea8147ada5e
 //             backgroundColor: [
 //                 'rgba(255, 99, 132, 0.2)',
 //                 'rgba(54, 162, 235, 0.2)',
