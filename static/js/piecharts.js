@@ -1,3 +1,6 @@
+let alabama = Object.values(data.Alabama);
+let alaska = Object.values(data.Alaska);
+
 // Display the default plot
 function init() {
   const ctx = document.getElementById('piechart').getContext('2d');
@@ -13,7 +16,7 @@ const Alabama = new Chart(ctx, {
         ],
       datasets: [{
           label: 'Diversity among women of reproductive ages in Alabama',
-          data: [5,29,60,2,5],
+          data: alabama,
           backgroundColor: [
               'rgba(255, 99, 132, 0.2)',
               'rgba(54, 162, 235, 0.2)',
@@ -36,7 +39,11 @@ const Alabama = new Chart(ctx, {
 });
 }
 
-let Alaska = Object.values(data.Alaska);
+// let Alabama = data.Alabama;
+// let Alaska = data.Alaska;
+
+
+// let Alaska = Object.values(data.Alaska);
 
 // On change to the DOM, call getData()
 d3.selectAll("selDataset").on("change", getData);
@@ -50,10 +57,10 @@ function getData() {
     let data = [];
   
     if (dataset == 'Alabama') {
-        data = Alabama;
+        data = alabama;
     }
     else if (dataset == 'Alaska') {
-        data = Alaska;
+        data = alaska;
     }
     else if (dataset == 'Arizona') {
         data = Arizona;
@@ -216,7 +223,7 @@ const dataset = new Chart(ctx, {
           ],
         datasets: [{
             label: 'Diversity among women of reproductive ages in {dataset}',
-            data: [newdata],
+            data: [data],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',

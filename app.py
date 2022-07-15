@@ -51,7 +51,7 @@ def home():
 
 
 
-@app.route("/data")
+@app.route("/data.html")
 def table(): 
     # conn = sqlite3.connect("DataFiles/abortion.db")
     # df = pd.read_sql("select * from df_abortion_sql",con=conn)
