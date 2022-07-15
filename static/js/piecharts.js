@@ -1,3 +1,43 @@
+// Display the default plot
+function init() {
+  const ctx = document.getElementById('piechart').getContext('2d');
+const Alabama = new Chart(ctx, {
+  type: 'pie',
+  data: {
+      labels: [
+          '% WORA who are hispanic',
+          '% WORA who are black',
+          '% WORA who are white',
+          '% WORA who are asian',
+          '% other WORA'
+        ],
+      datasets: [{
+          label: 'Diversity among women of reproductive ages in Alabama',
+          data: [5,29,60,2,5],
+          backgroundColor: [
+              'rgba(255, 99, 132, 0.2)',
+              'rgba(54, 162, 235, 0.2)',
+              'rgba(255, 206, 86, 0.2)',
+              'rgba(75, 192, 192, 0.2)',
+              'rgba(153, 102, 255, 0.2)',
+              'rgba(255, 159, 64, 0.2)'
+          ],
+          borderColor: [
+              'rgba(255, 99, 132, 1)',
+              'rgba(54, 162, 235, 1)',
+              'rgba(255, 206, 86, 1)',
+              'rgba(75, 192, 192, 1)',
+              'rgba(153, 102, 255, 1)',
+              'rgba(255, 159, 64, 1)'
+          ],
+          borderWidth: 1
+      }]
+  },                        
+});
+}
+
+let Alaska = Object.values(data.Alaska);
+
 // On change to the DOM, call getData()
 d3.selectAll("selDataset").on("change", getData);
 
@@ -157,11 +197,7 @@ function getData() {
         data = Wyoming;
       }
 
-
-
-
-
-  // Call function to update the chart
+        // Call function to update the chart
   updateChart(newdata);
 }
 
@@ -202,6 +238,8 @@ const dataset = new Chart(ctx, {
     },                        
 });
 }
+init();
+
 
 
 
