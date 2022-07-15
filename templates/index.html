@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../static/app.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js" defer></script>
     <script src="../static/js/piecharts.js" defer></script>
-    <script src= "../static/js/WORA data"></script>
+    <script src= "../static/js/WORAdata.js"></script>
     <!-- <script src="../static/data/states.json" defer></script> -->
     <!-- <script src="https://d3js.org/d3.v7.min.js"></script> -->
     <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
@@ -55,12 +55,13 @@
     <div id="chart"></div>
     <div id='map'></div>
 <script src="https://d3js.org/d3.v5.min.js"></script>
-<script type="text/javascript" src="./static/Map2.js"></script>
+
+<!-- TODO: <script type="text/javascript" src="./static/Map2.js"></script> -->
 
 <!-- <script>src="../static/data/states.json"</script> -->
 
     <h3>pie chart:</h3>
-    <select id="selDataset"> onchange="optionChanged(this.value)">
+    <select id="selDataset" onchange="getData(this.value)"> 
         <option value="Alabama">Alabama</option>
         <option value="Alaska">Alaska</option>
         <option value="Arizona">Arizona</option>

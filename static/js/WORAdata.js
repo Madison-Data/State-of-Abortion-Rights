@@ -32,7 +32,7 @@ let data = {
     New_Jersey: [24, 14, 47, 12, 4],
     New_Mexico: [54, 2, 29, 2, 13],
     New_York: [21, 14, 49, 10, 5],
-    Noth_Carolina: [11, 23, 57, 4, 6],
+    North_Carolina: [11, 23, 57, 4, 6],
     North_Dakota: [4, 4, 78, 3, 11],
     Ohio: [5, 13, 74, 3, 5],
     Oklahoma: [13, 7, 59, 3, 18],
