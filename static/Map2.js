@@ -85,7 +85,7 @@ info.update = function (props) {
     (props ?
         '<b>' + props.State + 
         '</b><br/>' + props.RestrictiveCategory +
-        '<li>' + props.AbortionsObtained2020.toLocaleString("en-US") + ' abortions obtained in 2020</li>' + 
+        '<li>' + props.AbortionsObtained2020 + ' abortions obtained in 2020</li>' + 
         '<li> Approximately ' + props.WORA2017 + ' women of reproductive age live in ' + props.State + '</li>' + 
         '<li>' + props.AbortionRatePer1k2020 + ' abortions per 1,000 women in the state were obtained in 2020 </li>'+ 
         '</b><br/></b><br/>' + 
