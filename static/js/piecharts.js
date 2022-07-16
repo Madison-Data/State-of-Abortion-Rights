@@ -25,20 +25,25 @@ function updateChart(newdata) {
                 label: 'Diversity among women of reproductive ages in {dataset}',
                 data: newdata,
                 backgroundColor: [
-                    'rgba(255, 99, 132, 0.2)',
-                    'rgba(54, 162, 235, 0.2)',
-                    'rgba(255, 206, 86, 0.2)',
-                    'rgba(75, 192, 192, 0.2)',
-                    'rgba(153, 102, 255, 0.2)',
-                    'rgba(255, 159, 64, 0.2)'
+                    'rgba(239, 50, 94, 0.7)',
+                    'rgba(194, 19, 90, 0.7)',
+                    'rgba(98, 10, 148, 0.7)',
+                    'rgba(4, 10, 116, 0.7)',
+                    'rgba(2, 133, 209, 0.7)',
                 ],
                 borderColor: [
-                    'rgba(255, 99, 132, 1)',
-                    'rgba(54, 162, 235, 1)',
-                    'rgba(255, 206, 86, 1)',
-                    'rgba(75, 192, 192, 1)',
-                    'rgba(153, 102, 255, 1)',
-                    'rgba(255, 159, 64, 1)'
+                    'rgba(239, 50, 94, 1)',
+                    'rgba(194, 19, 90, 1)',
+                    'rgba(98, 10, 148, 1)',
+                    'rgba(4, 10, 116, 1)',
+                    'rgba(2, 133, 209, 1)',
+                ],
+                hoverBackgroundColor: [
+                    'rgba(239, 50, 94, 0.85)',
+                    'rgba(194, 19, 90, 0.85)',
+                    'rgba(98, 10, 148, 0.85)',
+                    'rgba(4, 10, 116, 0.85)',
+                    'rgba(2, 133, 209, 0.85)',
                 ],
                 borderWidth: 1
             }]
