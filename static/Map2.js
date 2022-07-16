@@ -97,9 +97,9 @@ info.addTo(map);
 
 // FILL COLORS CONDITIONS FOR RESTRICTIVE CATEGORY
 function getColorFill_rc(r) {
-    return 	r === "Most Restrictive" ? "#370617" :
-        r === "Very Restrictive"  ? "#6a040f" :
-        r === "Restrictive"  ? "#9d0208" :
+    return 	r === "Most Restrictive" ? "#32171f" :
+        r === "Very Restrictive"  ? "#743649" :
+        r === "Restrictive"  ? "#a74e69" :
         r === "Some Restrictions/Protections"  ? "#f29479" :
         r === "Protective"   ? "#0096c7" :
         r === "Very Protective"   ? "#0077b6" :
@@ -130,13 +130,13 @@ function getColorFill_na(na) {
 
 // FILL COLORS AND CATEGORIES FOR ABORTION RATE
 function getColorFill_ar(ar) {
-    return ar > 25  ? '#264653' :
-           ar > 15  ? '#2A9D8F' :
-           ar > 10  ? '#E9C46A' :
-           ar > 5   ? '#F4A261' :
-           ar > 1   ? '#E76F51' :
-           ar > 0   ? '#862912' :
-                      '#FFFFFF';
+    return ar >= 25  ? '#1c2900' :
+           ar >= 15  ? '#395200' :
+           ar >= 10  ? '#557b00' :
+           ar >= 5   ? '#72a400' :
+           ar >= 1   ? '#8fce00' :
+           ar < 1   ? '#b0dc4c' :"";
+        //    ar > 0   ? '#b0dc4c' : "";
 }
 
 // FILL COLORS DISPLAY FOR RESTRICTIVE CATEGORY
@@ -247,15 +247,17 @@ var arLegend = L.control({position: 'bottomleft'});
             
         for (var i = 0; i < categories.length; i++) {
             div.innerHTML += 
-            '<br><i class="circle" style="background:' + getColorFill_ar(categories[i]) + '"></i> ' + (categories[i]);
+            '<br><i class="circle" style="background:' + getColorFill_ar(categories[i]) + '"></i> >' + (categories[i]);
         }
         return div;
     };
     arLegend.addTo(map);
 
-
-
-
-
-
-
+function showLegend() {
+    if (dataSet == "RestrictiveCategory")
+    rcLegend.addTo(map);
+    else if (dataSet == "AbortionsObtained2020")
+    aLegend.addTo(map);
+    else if (dataSet == "AbortionRateper1k2020")
+    arLegend.addTo(map)
+}
