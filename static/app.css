@@ -32,3 +32,11 @@ footer {
     font: bold;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+
+button {
+    text-align:left;
+    color: #576F72;
+    size: 5;
+    font-family: 'Corben', Georgia, Times, serif;
+    border-radius: 12px
+}
